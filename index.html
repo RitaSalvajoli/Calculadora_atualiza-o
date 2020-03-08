@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Calculadora em JS</title>
+    
+</head>
+<body>
+
+    <div class="p-3 mb-2 bg-dark text-white">
+        <h1>Calculadora JS</h1>
+    </div>
+    <form style="margin-left: 20px;">
+        
+        <div class="row">
+        <div class="col-xs-4">
+        <p>Número 1: </p><input type="number" name="" id="numero1" class="form-control">
+        <p>Número 2: </p><input type="number" name="" id="numero2" class="form-control">
+
+        <select id="operacao" class="form-control">
+            <option value="+"> Soma </option>
+            <option value="-"> Subtração </option>
+            <option value="*"> Multiplicação </option>
+            <option value="/"> Divisão </option>
+          </select></div></div>
+
+        <input type="button" class="btn btn-success" value="calcular" id="calcular">
+        <br>
+        <p>Resultado: <span id="resultado">.</span></p>
+       </form>
+
+       <script type="text/javascript" src="js.js"></script>
+</body>
+</html>
